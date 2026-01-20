@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Muhammad Hasif | Portfolio</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+  <header class="container header">
+    <div class="profile">
+      <img src="assets/img/profile.jpg" alt="Muhammad Hasif profile photo" class="profile-img" />
+
+      <div>
+        <h1>Muhammad Hasif</h1>
+        <p class="subtitle">Computer Science (Software Engineering) • Internship Portfolio</p>
+        <p class="meta">
+          <a href="mailto:hasiff028@gmail.com">hasiff028@gmail.com</a> •
+          <a href="https://www.linkedin.com/in/muhammad-hasif-504154338/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>About</h2>
+      <p>
+        I’m a Computer Science student (Software Engineering) with hands-on experience building web and mobile apps.
+        I’m open to learning across software development, networking, system support, and related IT domains.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Projects</h2>
+
+      <div class="projects-grid">
+
+        <!-- SmartVolunteer -->
+        <article class="project-card">
+          <div class="project-head">
+            <h3>SmartVolunteer (Final Year Project)</h3>
+            <div class="tags">
+              <span class="tag">Laravel</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Blade</span>
+              <span class="tag">Tailwind</span>
+              <span class="tag">Railway</span>
+            </div>
+          </div>
+
+          <p>
+            Full-stack volunteer management system for NGO activities: event management, role-based access control,
+            volunteer workflows, and automated email notifications.
+          </p>
+
+          <ul class="bullets">
+            <li>Laravel MVC backend with role-based access control & workflows</li>
+            <li>MySQL database + CRUD operations</li>
+            <li>Responsive UI (Blade + Tailwind CSS)</li>
+            <li>Automated email notifications + deployment readiness</li>
+          </ul>
+
+          <div class="links">
+            <a class="btn" href="https://github.com/Hasiffnizam/SmartVolunteer" target="_blank" rel="noreferrer">GitHub Repo</a>
+            <a class="btn" href="https://smartvolunteer-production.up.railway.app/" target="_blank" rel="noreferrer">Live Demo</a>
+          </div>
+        </article>
+
+        <!-- Natural Disaster Reminder App -->
+        <article class="project-card">
+          <div class="project-head">
+            <h3>Natural Disaster Reminder App (Android)</h3>
+            <div class="tags">
+              <span class="tag">Android Studio</span>
+              <span class="tag">Firebase</span>
+              <span class="tag">Firestore</span>
+              <span class="tag">MVC</span>
+            </div>
+          </div>
+
+          <p>
+            Android app built with MVC architecture, using Firebase (Cloud Firestore) for real-time data sync and storage.
+          </p>
+
+        </article>
+
+        <!-- DaieTrack -->
+        <article class="project-card">
+          <div class="project-head">
+            <h3>DaieTrack (Flutter)</h3>
+            <div class="tags">
+              <span class="tag">Flutter</span>
+              <span class="tag">Dart</span>
+              <span class="tag">Firebase</span>
+              <span class="tag">Firestore</span>
+              <span class="tag">MVC</span>
+            </div>
+          </div>
+
+          <p>
+            Flutter app using MVC-style structure with Firebase Authentication and Cloud Firestore for real-time preacher activity data.
+          </p>
+
+          <div class="links">
+            <a class="btn" href="https://github.com/Frhsffiah/dts_sep" target="_blank" rel="noreferrer">GitHub Repo</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Skills</h2>
+      <div class="grid">
+        <div>
+          <h4>Web</h4>
+          <p>Laravel (PHP), Blade, Tailwind CSS, RESTful APIs</p>
+        </div>
+        <div>
+          <h4>Mobile</h4>
+          <p>Flutter (Dart), Android Studio</p>
+        </div>
+        <div>
+          <h4>Database & Cloud</h4>
+          <p>MySQL, Firebase (Auth, Firestore)</p>
+        </div>
+        <div>
+          <h4>Tools</h4>
+          <p>Git, GitHub, VS Code, Railway, Figma, Canva</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Download Resume</h2>
+      <p>
+        <a class="btn" href="assets/Hasif_Resume_IndustrialTraining.pdf" target="_blank" rel="noreferrer">
+          Resume (PDF)
+        </a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> Muhammad Hasif</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
